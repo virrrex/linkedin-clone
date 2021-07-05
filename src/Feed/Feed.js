@@ -1,12 +1,12 @@
 import { CalendarViewDay, Create, EventNote, Image, Subscriptions } from '@material-ui/icons';
 import React, {useEffect, useState} from 'react';
 import "./Feed.css";
-import { db } from './firebase';
+import { db } from '../firebase';
 import InputOption from './InputOption';
 import Post from './Post';
 import firebase from 'firebase';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 
 function Feed() {

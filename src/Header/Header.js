@@ -1,12 +1,12 @@
 import React from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
-import HeaderOption from './HeaderOption';
+import HeaderOption from './HeaderOption/HeaderOption';
 import HomeIcon from "@material-ui/icons/Home";
 import { BusinessCenter, Chat, Notifications, SupervisorAccount } from '@material-ui/icons';
 import { useDispatch } from 'react-redux';
-import { logout } from './features/userSlice';
-import { auth } from './firebase';
+import { logout } from '../features/userSlice';
+import { auth } from '../firebase';
 
 function Header() {
     const dispatch = useDispatch();
