@@ -17,7 +17,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__top">
-                <img src="https://media-exp3.licdn.com/dms/image/C5616AQFDhihGV317JQ/profile-displaybackgroundimage-shrink_350_1400/0/1618682084857?e=1631145600&v=beta&t=hL2pc81Gsv-zsGuHa8t2a_HlwkgV0SS-Mc9GR-5215g" alt=""/>
+                <img src="https://wallpaperaccess.com/full/780774.jpg" alt=""/>
                 <Avatar src={user.photoUrl} className="sidebar__avatar"/>
                 <h2>{user.displayName}</h2>
                 <h4>{user.email}</h4>
